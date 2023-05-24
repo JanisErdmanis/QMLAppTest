@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Window
 import QtQuick.Controls
-import org.julialang
+//import org.julialang
 
 ApplicationWindow {
     title: "QMLApp"
