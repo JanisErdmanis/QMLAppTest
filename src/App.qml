@@ -1,7 +1,7 @@
 import QtQuick
 import QtQuick.Window
 import QtQuick.Controls
-//import org.julialang
+import org.julialang
 
 ApplicationWindow {
     title: "QMLApp"
@@ -16,7 +16,7 @@ ApplicationWindow {
         
         Text { 
             anchors.centerIn : parent 
-            text : "Hello World!" 
+            text : _PROPERTIES.text
             font.pointSize : 32 
             color : "black" 
         } 
